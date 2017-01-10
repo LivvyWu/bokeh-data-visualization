@@ -5,7 +5,7 @@ from bokeh.charts import Line, show, output_notebook
 from bokeh.models.widgets import Select
 from bokeh.plotting import Figure, ColumnDataSource
 from bokeh.layouts import column, row
-from bokeh.models import HoverTool, NumeralTickFormatter, LinearAxis, Range1d
+from bokeh.models import HoverTool, NumeralTickFormatter
 
 fruit=[("pineapple","鳳梨"),("strawberry","草莓")]
 select = Select(title="水果", value="pineapple", options=fruit)
